@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/prism.png");
+    background-repeat: repeat-x repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    background: #ffffff;
+    width: 100%;
+}
+
+h1 {
+    background: #4aaaa5;
+    width: 360px;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    text-shadow: 1px 1px #666666;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+a {
+    color: #cccccc;
+}
+
+.block {
+    width: 960px;
+    background: #ffffff;
+    margin: auto;
+    text-indent: 8px;
+}
+
+.title {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+#starTrek {
+    width: 200px;
+    border: 2px solid #666666;
+}
+
+.thumbnail {
+    width: 200px;
+
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    padding-top: 24px;
+    background: #666666;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+input {
+    width: 935px;
+    margin: 10px;
+}
+
+#message {
+    height: 200px;
+}
+
+/* Background pattern from Toptal Subtle Patterns */
