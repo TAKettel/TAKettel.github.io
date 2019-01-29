@@ -6,28 +6,35 @@
   <title>Get in Touch with Trevor Kettelkamp</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
+<body>
 <header>
+    <div class="headText">
         <!--This will be roughly the same for all three sites, copy/paste dude.-->
-        <h1>
-            Trevor Kettelkamp
-        </h1>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </header>
+        <div class="h1">Trevor Kettelkamp</div>
+        <div class="navwrap">
+            <a href="index.html">About</a> | 
+            <a href="portfolio.html">Portfolio</a> | 
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</header>
 
     <div class="block">
         <div class="title">
             Contact
         </div>
-    <body>
- Name<br><input id="name"><br>
- Email<br><input id="email"><br>
- Message<br><input id="message"><br>
+        <div class="horzBreak">
+            </div>
+    <form class="contactBlock">
+<label for="name">Name</label><input id="name" placeholder="Name">
+<label for="email">Email</label><input id="email" placeholder="Email Address">
+<label for="textMsg">Message</label><textarea id="message" placeholder="Type your message here."></textarea>
 
 <button type="submit">Submit</button>
+    </form>
     </div>
     <footer>
         © 2019
