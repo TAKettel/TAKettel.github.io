@@ -137,6 +137,10 @@ img {
     bottom: 20px;
 }
 
+.portLink {
+    color: #ffffff;
+}
+
 footer {
     border-top: 8px solid #4aaaa5;
     padding-top: 24px;
