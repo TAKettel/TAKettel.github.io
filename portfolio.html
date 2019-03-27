@@ -4,99 +4,132 @@
 <head>
   <meta charset="UTF-8">
   <title>See the Work of Trevor Kettelkamp</title>
+    <!-- The reset css. -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Google fonts I want to use. -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Then my style sheet. -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--For the usage of icons on the Portfolio titles.-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <!--For the usage of icons on the Portfolio titles.-->
   <meta name="google" content="notranslate"> <!--found on stackoverflow - prevent Chrome from suggesting to translate my character's names-->
 </head>
 
 <body>
-<header>
-        <div class="headText">
-            <!--This will be roughly the same for all three sites, copy/paste dude.-->
-            <div class="h1">Trevor Kettelkamp</div>
-            <div class="navwrap">
-                    <a href="index.html">About</a> | 
-                    <a href="portfolio.html">Portfolio</a> | 
-                    <a href="contact.html">Contact</a>
-                    </div>
-        </div>
-    </header>
-    
-    <div class="block">
-        <div class="title">
-            Portfolio
-        </div>
-        <hr class="horzBreak">
-            <!--I could do a -->
-        </hr>
-
-        <div class="subtitle">
-            Web Development
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/trainInterior.jpg" width=200px class="thumbnail">
-            <div class="portTitle"><a class="portLink" href="https://takettel.github.io/trainTime/" target="_blank">Track Nine: the Train Tracker App</a></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/giphy-logo.png" width=200px class="thumbnail">
-            <div class="portTitle"><a class="portLink" href="https://takettel.github.io/GifTastic/" target="_blank">GIF Search Tool</a></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/morboCropped.jpg" width=200px class="thumbnail">
-            <div class="portTitle"><a class="portLink" href="https://takettel.github.io/TriviaGame/" target="_blank">Futurama Trivia Game</a></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/Steven.png" width=200px class="thumbnail">
-            <div class="portTitle"><a class="portLink" href="https://takettel.github.io/unit-4-game/" target="_blank">Crystal Gem Escape Game</a></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/dinoBook.jpg" width=200px class="thumbnail">
-            <div class="portTitle"><a class="portLink" href="https://takettel.github.io/Word-Guess-Game/" target="_blank">Dinosaur Hangman</a></div>
-        </div>
-
-
-        <hr class="horzBreak"></hr>
-        <div class="subtitle">
-            Character Design and Illustration
-        </div>
-
-        <div class="thumbBox">
-            <img src="assets/images/Avishaun-thumbnail.jpg" width=200px class="thumbnail">
-            <div class="portTitle">Avishaun<i class="fas fa-dice-d20"></i></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/Brink-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Brink<i class="fas fa-mask"></i></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/spiderCrit-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Smash Monster Rampage - Spider</div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/stealthFrog-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Stealth Class - Frog</div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/distancePoster-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Distance<i class="fas fa-film"></i></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/Kennedy-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Kennedy</div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/Hourglass-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Hourglass<i class="fas fa-mask"></i></div>
-        </div>
-        <div class="thumbBox">
-            <img src="assets/images/gooEngulf-thumbnail.jpg" class="thumbnail">
-            <div class="portTitle">Smash Monster Rampage - Goo</div>
+<div class="container">
+    <div class="row fixed-top">
+        <div class="col-sm-3 col-md-1 col-lg-2"></div>
+        <div class="col-sm-6 col-md-3 myName">Trevor Kettelkamp</div>
+        <div class="col-md-2 col-lg-1"></div>
+        <div class="col-sm-12 col-md-5 col-lg-4 navbar .justify-content-end">
+            <a class="nav-item nav-link" href="index.html">About</a> | 
+            <a class="nav-item nav-link disabled" href="portfolio.html">Portfolio</a> | 
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
     </div>
+</div>
+            
+<div class="container card">
+    <div class="row mainTitle">
+        Portfolio
+    </div>
+    <hr>
+    <div class="row sectionTitle">
+            Web Development
+    </div>
+    <div class="row boxesBox">
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/trainInterior.jpg" width=200px class="thumbnail">
+            <div class="portTitle text-center">
+                    <p>Train Tracker</p>
+                    <a href="https://takettel.github.io/trainTime/" target="_blank">Deployed</a> | 
+                    <a href="https://github.com/TAKettel/trainTime" target="_blank">GitHub</a>
+                </div>
+            </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/giphy-logo.png" width=200px class="thumbnail">
+            <div class="portTitle text-center">
+                    <p>GIF Search Tool</p>
+                    <a href="https://takettel.github.io/GifTastic/" target="_blank">Deployed</a> | 
+                    <a href="https://github.com/TAKettel/GifTastic" target="_blank">GitHub</a>
+                </div>
+            </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/morboCropped.jpg" width=200px class="thumbnail">
+            <div class="portTitle text-center">
+                <p>Futurama Trivia Game</p>
+                <a href="https://takettel.github.io/TriviaGame/" target="_blank">Deployed</a> | 
+                <a href="https://github.com/TAKettel/TriviaGame" target="_blank">GitHub</a>
+            </div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/Steven.png" width=200px class="thumbnail">
+            <div class="portTitle text-center">
+                    <p>Crystal Gem Escape Game</p>
+                    <a href="https://takettel.github.io/unit-4-game/" target="_blank">Deployed</a> | 
+                    <a href="https://github.com/TAKettel/unit-4-game" target="_blank">GitHub</a>
+                </div>
+            </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/dinoBook.jpg" width=200px class="thumbnail">
+            <div class="portTitle text-center">
+                    <p>Dinosaur Hangman</p>
+                    <a href="https://takettel.github.io/Word-Guess-Game/" target="_blank">Deployed</a> | 
+                    <a href="https://github.com/TAKettel/Word-Guess-Game" target="_blank">GitHub</a>
+                </div>
+            </div>
+    </div>
 
-    <footer>
-        © 2019
-    </footer>
+    <hr>
+
+    <div class="row sectionTitle">
+            Character Design and Illustration
+    </div>
+    <div class="row boxesBox">
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/Avishaun-thumbnail.jpg" width=200px class="thumbnail">
+            <div class="portTitle text-center">Avishaun <i class="fas fa-dice-d20"></i></div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/Brink-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Brink <i class="fas fa-mask"></i></div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/spiderCrit-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Smash Monster Rampage - Spider</div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/stealthFrog-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Stealth Class - Frog</div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/distancePoster-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Distance <i class="fas fa-film"></i></div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/Kennedy-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Kennedy</div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/Hourglass-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Hourglass <i class="fas fa-mask"></i></div>
+        </div>
+    <div class="thumbBox col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <img src="assets/images/gooEngulf-thumbnail.jpg" class="thumbnail">
+            <div class="portTitle text-center">Smash Monster Rampage - Goo</div>
+        </div>
+    </div>
+    </div>
+
+
+<div class="text-center">
+    <div class="footer-margin">
+        <footer class="card-footer footer-position">© 2019
+        </footer>
+    </div>
+</div>
+    <!-- found a suggestion on https://medium.com/@josephcardillo/how-to-add-a-sticky-footer-using-bootstrap-ad7cf69838e7 -->
 </body>
+</html>

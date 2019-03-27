@@ -1,122 +1,99 @@
-* {
-    box-sizing: border-box;
-}
+/*
+    Theme Colors:
+    #CC5400, burnt orange;
+    #99633D, brown;
+    #FF2000, red;
+    #40FF6E, bright green;
+    #375E35, hunter green/emerald.
+
+    Alt theme colors:
+    #FFB129, goldenrod;
+    #996600, brown;
+    #CC5400, burnt orange;
+    #A2D2C9, robin's egg;
+    #19FF90, mint green;
+
+    Muted theme colors:
+    #DE9B16, peach;
+    #DE9B16, very brown;
+    #AB4600, burnt pumpkin;
+    #8BB5AD, sick dolphin;
+    #16DE7D, mint ice cream;
+    
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+*/
 
 body {
+    padding-top: 80px;
     background-image: url("../images/prism.png");
     background-repeat: repeat-x repeat-y;
-    font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    padding-bottom: 80px;
+/* Background pattern from Toptal Subtle Patterns */
 }
 
+/* --------------------------------Header----------------------------- */
 
-header {
-    background: #ffffff;
-    width: 100%;
-    height: 60px;
-    outline: 2px solid #cccccc;
-}
-
-.headText {
-    width: 960px;
-    position: relative;
-    margin: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.navwrap {
-    position: absolute;
-    right: 10px;
-    top: 20px;
-}
-
-.horzBreak {
-    width: 825px;
-    height: 4px;
-    background: #cccccc;
-    border-radius: 2px;
-    position: relative;
-    margin: auto;
-    margin-bottom: 10px;
-    z-index: 3;
-    
-}
-
-.h1 {
-    background: #4aaaa5;
-    width: 360px;
-    height: 60px;
-    position: absolute;
-    padding: 15px 0;
-    left: 0;
+.myName {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    color: #fffff0;
+    text-shadow: 1px 2.5px #996600;
+    background-color: #CC5400;
     text-align: center;
-    text-shadow: 1px 1px #666666;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 30px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
-a {
-    color: #969696;
-    padding: 0 2.5px;
-    text-decoration: none;
+.navbar {
+    color: #fffff0;
 }
 
-.block {
-    width: 960px;
-    background: #ffffff;
-    margin: 20px auto;
-    text-indent: 8px;
-    position: relative;
-    line-height: 1.5em;
-    overflow: hidden;
+.fixed-top {
+    background-color: #A2D2C9;
+    height: 60px;
+    outline: 2px solid #19FF90;
 }
 
-.contactBlock {
-    padding: 20px;
+.nav-link {
+    color: #fffff0;
 }
 
-input::placeholder {
-    color: #cccccc; 
+.nav-link.disabled {
+    color: #CC5400;
 }
 
-textarea::placeholder {
-    color: #cccccc; 
+hr {
+    background-color: #FFB129;
 }
 
-.title {
-    font-size: 30px;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px 10px;
-    font-weight: bold;
-    padding: 20px 0;
-}
+/* --------------------------------Body------------------------------- */
 
-.subtitle {
-    font-size: 20px;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px 15px;
-    font-weight: bold;
-    text-indent: 20px;
-    padding: 5px 0; 
-}
 #starTrek {
-    width: 200px;
-    border: 2px solid #666666;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.bio {
     float: left;
-    margin: 20px;
+}
+
+.boxesBox {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .thumbBox {
-    width: 200px;
-    height: 200px;
-    margin: 15px;
     position: relative;
-    left: 12px;
-    outline: 4px solid #666666;
-    float: left;
+    display: inherit;
+    padding-left: 15px;
+    padding-bottom: 30px;
     transition: transform .2s;
 }
 
@@ -125,72 +102,100 @@ textarea::placeholder {
 }
 
 .thumbnail {
+    height: 200px;
     width: 200px;
-    position: absolute;
-    left: 0;
-}
-
-img {
-    float:left;
+    outline: 2px solid #CC5400;
 }
 
 .portTitle {
     position: absolute;
-    float: left;
+    float: right    ;
     width: 200px;
-    background-color: #4aaaa5;
+    bottom: 40px;
+    background: #CC5400;
+    color: #fffff0;
+    opacity: .85;
+}
+
+.mainTitle {
+    margin: 15px 0 0 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.sectionTitle {
+    margin: 0 0 15px 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
+
+.resume {
+    background-color: #CC5400;
+    border-radius: 10px;
     margin: auto;
-    color: #ffffff;
-    z-index: 3;
-    text-align: center;
-    bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.portLink {
-    color: #ffffff;
+button {
+    margin-bottom: 15px;
 }
 
-footer {
-    border-top: 8px solid #4aaaa5;
-    padding-top: 24px;
-    background: #666666;
-    color: #cccccc;
-    text-align: center;
-    bottom: 0;
-    right: 0;
-    width: 100%;
+/* ---------------------------------Footer---------------------------- */
+
+.footer-margin {
     position: fixed;
-    z-index: 5;
-}
-
-input {
-    clear: both;
+    bottom: 0;
     width: 100%;
-    margin: auto;
-    max-width: 920px;
+    color: #996600;
+    background-color: #fffff0;
 }
 
-textarea {
-    width: 100%;
-    height: 100px;
-    margin: auto;
-    max-width: 920px;
+  /* --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px; */
+
+@media (max-width: 1200px) {
+    .myName {
+        height: 90px;
+    }
+
+    .fixed-top {
+        height: 100px;    
+    }
+
+    body {
+        padding-top: 120px;
+    }
 }
 
-label {
-    line-height: 2em;
-    font-weight: bold;
-    margin-left: 25px;
+@media (max-width: 992px) {
+    #starTrek {
+        height: 200px;
+        width: 200px;
+    }
+    
 }
+@media (max-width: 768px) {
+    .myName {
+        height: 45px;
+    }
 
-p {
-    margin: 0 25px;
-    padding-top: 20px;
+    .fixed-top {
+        height: 100px;    
+    }
+
+    #starTrek {
+        height: 500px;
+        width: 300px;
+    }
+    
+    body {
+        padding-top: 120px;
+    }
+
+    .mainTitle {
+        font-size: 24px;
+    }
 }
-
-p::first-letter {
-    font-size: 28px;
-}
-
-
-/* Background pattern from Toptal Subtle Patterns */
