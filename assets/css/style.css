@@ -68,6 +68,15 @@ body {
     color: #CC5400;
 }
 
+.nav-link:hover,
+.download:hover {
+    color: #19FF90;
+}
+
+.download {
+    color: #777777;
+}
+
 hr {
     background-color: #FFB129;
 }
