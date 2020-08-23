@@ -1,0 +1,216 @@
+/*
+    Theme Colors:
+    #CC5400, burnt orange;
+    #99633D, brown;
+    #FF2000, red;
+    #40FF6E, bright green;
+    #375E35, hunter green/emerald.
+
+    Alt theme colors:
+    #FFB129, goldenrod;
+    #996600, brown;
+    #CC5400, burnt orange;
+    #A2D2C9, robin's egg;
+    #19FF90, mint green;
+
+    Muted theme colors:
+    #DE9B16, peach;
+    #DE9B16, very brown;
+    #AB4600, burnt pumpkin;
+    #8BB5AD, sick dolphin;
+    #16DE7D, mint ice cream;
+    
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+*/
+
+body {
+    padding-top: 80px;
+    background-image: url("../images/prism.png");
+    background-repeat: repeat-x repeat-y;
+    color: #777777;
+    padding-bottom: 80px;
+/* Background pattern from Toptal Subtle Patterns */
+}
+
+/* --------------------------------Header----------------------------- */
+
+.myName {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    color: #fffff0;
+    text-shadow: 1px 2.5px #996600;
+    background-color: #CC5400;
+    text-align: center;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.navbar {
+    color: #fffff0;
+}
+
+.fixed-top {
+    background-color: #A2D2C9;
+    height: 60px;
+    outline: 2px solid #19FF90;
+}
+
+.nav-link {
+    color: #fffff0;
+}
+
+.nav-link.disabled {
+    color: #CC5400;
+}
+
+.nav-link:hover,
+.download:hover {
+    color: #19FF90;
+}
+
+.download {
+    color: #777777;
+}
+
+hr {
+    background-color: #FFB129;
+}
+
+/* --------------------------------Body------------------------------- */
+
+.titleBox {
+    background-color: #FFB129
+}
+
+.nameBox {
+    background-color: #FFB129
+}
+
+.descriptBox {
+    background-color: #FFB129
+}
+
+.bio {
+    float: left;
+}
+
+.boxesBox {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.thumbBox {
+    position: relative;
+    display: inherit;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    transition: transform .2s;
+}
+
+.thumbBox:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail {
+    height: 200px;
+    width: 200px;
+    outline: 2px solid #CC5400;
+}
+
+.portTitle {
+    position: absolute;
+    float: right    ;
+    width: 200px;
+    bottom: 40px;
+    background: #CC5400;
+    color: #fffff0;
+    opacity: .85;
+}
+
+.mainTitle {
+    margin: 15px 0 0 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.sectionTitle {
+    margin: 0 0 15px 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
+
+.resume {
+    background-color: #CC5400;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-bottom: 15px;
+}
+
+/* ---------------------------------Footer---------------------------- */
+
+.footer-margin {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #996600;
+    background-color: #fffff0;
+}
+
+  /* --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px; */
+
+@media (max-width: 1200px) {
+    .myName {
+        height: 90px;
+    }
+
+    .fixed-top {
+        height: 100px;    
+    }
+
+    body {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    #starTrek {
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .myName {
+        height: 45px;
+    }
+
+    .fixed-top {
+        height: 100px;    
+    }
+
+    #starTrek {
+        height: 500px;
+        width: 300px;
+    }
+    
+    body {
+        padding-top: 120px;
+    }
+
+    .mainTitle {
+        font-size: 24px;
+    }
+}

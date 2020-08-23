@@ -3,31 +3,81 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Trevor Kettelkamp, Web Developer and Character Designer</title>
+    <title>Trevor Kettelkamp, Digital Artist and Architect</title>
     <link rel="shortcut icon" />
         <!-- The reset css. -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!-- My style sheet last. -->
+    <link rel="stylesheet" type="text/css" href="assets/css/comicstyle.css">
 </head>
 
 <body>
 <div class="container">
-    <!-- Header -->
+    <!-- Sticky Header -->
+    <div class="row fixed-top" id="comicHeader">
+        <div class="col-2 col-md-0"></div>
+        <div class="col-2 logoIcon"><!-- Space for the logo. -->"T" icon Here</div>
+        <div class="col-6 text-right dropDown"><!-- The rest of the header block, including the drop down. -->Menu Options Here</div>
+        <div class="col-2 col-md-0"></div>
+    </div>
 </div>
 <div class="container">
     <!-- Intro Square -->
+    <div class="row">
+        <div class="col-md-12 nameBox"><!-- NAME section, left aligned  2/3 spacing, on larger screens, center aligned on smaller -->Trevor Kettelkamp</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center titleBox"><!-- TITLE section, overlapping the NAME section, center aligned at all times -->Web Developer, Character Designer, Illustrator, Animator, and more!</div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6"><!-- PRIMARY PHOTO, right aligned on larger screens, center aligned on smaller-->Main Photo Here</div>
+        <div class="col-md-6 d-none d-lg-block"><!-- EXTRA PHOTO, left aligned on larger screens and slightly lower than primary, NOT USED on smaller -->Secondary Photo Here as Needed</div>
+    </div>
+    <div class="row">
+        <div class="col descriptBox"><!-- DESCRIPTION, right aligned on larger screens, two thirds of the screen. Overlaps bottom of main pic, far right of the extra pic.-->A multi-disciplined Jack of All Trades, Trevor has training and experience in web development, animation, stage theatre, and medical billing, and is ready to use the varied skills developed over the years to develop vibrant and varied works of digital artistry.</div>
+    </div>
+    </div>
 </div>
 <div class="container">
     <!-- Coding Portfolio -->
+    <div class="row">
+            <div class="col titleBox">Web Development Work</div>
+            <div class="col"><!-- THUMBNAILS that shift depending on the screen size - four or five when superwide, only one per line on smaller screens-->Ben Day Thumbnails Based on the Projects</div>
+        <!-- Look up options for importing listings based on another file, iterations and all that.  That way, I can keep updating my information from a separate JSON thing. -->
+    </div>
+    <div class="row webdevDetails"><!-- Kept off screen until used-->
+        <div class="col">Project Title</div>
+        <div class="col">Project Preview</div>
+        <div class="col descriptBox">Project Description and Links</div>
+    </div>
 </div>
 <div class="container">
     <!-- Art Portfolio -->
+    <div class="row">
+        <div class="col titleBox">Character Design</div>
+        <div class="col"><!-- THUMBNAILS that shift depending on the screen size - four or five when superwide, only one per line on smaller screens-->Ben Day Thumbnails Based on the Projects</div>
+    </div>
+    <div class="row designDetails"><!-- Kept off screen until used-->
+        <div class="col">Project Title</div>
+        <div class="col">Project Preview</div>
+        <div class="col descriptBox">Project Description and Links</div>
+    </div>
 </div>
 <div class="container">
     <!-- Contact/Links -->
+    <div class="row">
+        <div class="col titleBox">Connect with me</div>
+    </div>
+    <div class="row">
+        <div class="col">LinkedIn GitHub Twitter Vimeo DeviantArt</div>
+    </div>
 </div>
 <div class="container">
+    <div class="row">
+        <div class="col text-center">© 2020</div>
+    </div>
     <!-- Footer -->
 </div>
 </body>
