@@ -95,6 +95,11 @@ hr {
     background-color: #FFB129
 }
 
+.icon {
+    height: 150px;
+    width: 150px;
+}
+
 .bio {
     float: left;
 }
