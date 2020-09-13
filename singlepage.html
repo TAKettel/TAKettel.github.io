@@ -8,7 +8,7 @@
         <!-- The reset css. -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <!-- My style sheet last. -->
     <link rel="stylesheet" type="text/css" href="assets/css/comicstyle.css">
 </head>
@@ -16,14 +16,21 @@
 <body>
 <div class="container">
     <!-- Sticky Header -->
-    <div class="row fixed-top" id="comicHeader">
+    <div class="row fixed-top" id="comicHeader collapsible">
         <div class="col-2 col-md-0"></div>
-        <div class="col-2 logoIcon"><!-- Space for the logo. -->"T" icon Here</div>
-        <div class="col-6 text-right dropDown"><!-- The rest of the header block, including the drop down. -->Menu Options Here</div>
+        <div class="col-2 logoIcon"><!-- Space for the logo. --><a href="#Home">"T" icon Here</a></div>
+        <a class="btn btn-primary" data-toggle="collapse" data-target="#redirect" aria-expanded="false" role="button">
+            <div class="col-6 text-right "> <!-- The rest of the header block, including the drop down. -->☰
+            </div></a>
+        <div class="collapse" id="redirect">
+            <div class="redirect"><a href="#WebDev">Web Develop Examples</a></div>
+            <div class="redirect"><a href="#CharDes">Character Design Examples</a></div>
+            <div class="redirect"><a href="#Links">Connect</a></div>
+        </div>
         <div class="col-2 col-md-0"></div>
     </div>
 </div>
-<div class="container">
+<div class="container"><a name="Home" />
     <!-- Intro Square -->
     <div class="row">
         <div class="col-md-12 nameBox"><!-- NAME section, left aligned  2/3 spacing, on larger screens, center aligned on smaller -->Trevor Kettelkamp</div>
@@ -40,7 +47,7 @@
     </div>
     </div>
 </div>
-<div class="container">
+<div class="container"><a name="WebDev" />
     <!-- Coding Portfolio -->
     <div class="row">
             <div class="col titleBox">Web Development Work</div>
@@ -53,7 +60,7 @@
         <div class="col descriptBox">Project Description and Links</div>
     </div>
 </div>
-<div class="container">
+<div class="container"><a name="CharDes" />
     <!-- Art Portfolio -->
     <div class="row">
         <div class="col titleBox">Character Design</div>
@@ -65,19 +72,19 @@
         <div class="col descriptBox">Project Description and Links</div>
     </div>
 </div>
-<div class="container">
+<div class="container"><a name="Links" />
     <!-- Contact/Links -->
     <div class="row">
         <div class="col titleBox">Connect with me</div>
     </div>
     <div class="row">
         <div class="col text-center">
-            <a href="" target="_blank"><img src="assets/images/GitHubBenDay.png" class="icon"></a>
-            <a href="" target="_blank"><img src="assets/images/LinkedInBenDay.png" class="icon"></a>
-            <a href="" target="_blank"><img src="assets/images/FacebookBenDay.png" class="icon"></a>
-            <a href="" target="_blank"><img src="assets/images/TwitterBenDay.png" class="icon"></a>
-            <a href="" target="_blank"><img src="assets/images/VimeoBenDay.png" class="icon"></a>
-            <a href="" target="_blank"><img src="assets/images/DABenDay.png" class="icon"></a>
+            <a href="https://github.com/TAKettel" target="_blank"><img src="assets/images/GitHubBenDay.png" class="icon"></a>
+            <a href="https://www.linkedin.com/in/trevor-kettelkamp" target="_blank"><img src="assets/images/LinkedInBenDay.png" class="icon"></a>
+            <a href="https://www.facebook.com/trevor.kettelkamp/" target="_blank"><img src="assets/images/FacebookBenDay.png" class="icon"></a>
+            <a href="https://twitter.com/takettel" target="_blank"><img src="assets/images/TwitterBenDay.png" class="icon"></a>
+            <a href="https://vimeo.com/user6174430" target="_blank"><img src="assets/images/VimeoBenDay.png" class="icon"></a>
+            <a href="https://www.deviantart.com/takettel" target="_blank"><img src="assets/images/DABenDay.png" class="icon"></a>
         </div>
     </div>
 </div>
@@ -87,4 +94,6 @@
     </div>
     <!-- Footer -->
 </div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="assets/js/index.js" />
 </body>
