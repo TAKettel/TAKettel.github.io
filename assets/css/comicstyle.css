@@ -1,24 +1,10 @@
 /*
     Theme Colors:
-    #CC5400, burnt orange;
-    #99633D, brown;
-    #FF2000, red;
-    #40FF6E, bright green;
-    #375E35, hunter green/emerald.
+    #C67B0f - brownish gold
+    #FFAC35 - orangey orange
+    #755A8A - light purple
+    #BFDA85 - lime mint something
 
-    Alt theme colors:
-    #FFB129, goldenrod;
-    #996600, brown;
-    #CC5400, burnt orange;
-    #A2D2C9, robin's egg;
-    #19FF90, mint green;
-
-    Muted theme colors:
-    #DE9B16, peach;
-    #DE9B16, very brown;
-    #AB4600, burnt pumpkin;
-    #8BB5AD, sick dolphin;
-    #16DE7D, mint ice cream;
     
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -29,11 +15,9 @@
 
 body {
     padding-top: 80px;
-    background-image: url("../images/prism.png");
-    background-repeat: repeat-x repeat-y;
-    color: #777777;
+    background-image: url(/assets/images/SVG/Asset\ 1.svg);
+    color: #343434;
     padding-bottom: 80px;
-/* Background pattern from Toptal Subtle Patterns */
 }
 
 /* --------------------------------Header----------------------------- */
@@ -45,19 +29,19 @@ body {
     text-shadow: 1px 2.5px #996600;
     background-color: #CC5400;
     text-align: center;
-    height: 50px;
+    height: 10px;
     margin-top: 5px;
     border-radius: 10px;
 }
 
 .navbar {
-    color: #fffff0;
+    color: #755A8A;
 }
 
 .fixed-top {
-    background-color: #A2D2C9;
-    height: 60px;
-    outline: 2px solid #19FF90;
+    background-color: #BFDA85;
+    height: 10px;
+    outline: 2px solid #755A8A;
 }
 
 .nav-link {
@@ -78,7 +62,7 @@ body {
 }
 
 hr {
-    background-color: #FFB129;
+    background-color: #FFAC35;
 }
 
 /* .redirect {
@@ -92,15 +76,15 @@ hr {
 /* --------------------------------Body------------------------------- */
 
 .titleBox {
-    background-color: #FFB129
+    background-color: #FFAC35
 }
 
 .nameBox {
-    background-color: #FFB129
+    background-color: #FFAC35
 }
 
 .descriptBox {
-    background-color: #FFB129
+    background-color: #FFAC35
 }
 
 .icon {

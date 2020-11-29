@@ -61,10 +61,14 @@
         <!-- THUMBNAILS that shift depending on the screen size - four or five when superwide, only one per line on smaller screens-->
         <!-- Look up options for importing listings based on another file, iterations and all that.  That way, I can keep updating my information from a separate JSON thing. -->
     </div>
-    <div class="modal card webdevDetails style='width: 18rem;'"><!-- Kept off screen until used-->
-        <div class="col">Web Dev Title</div>
-        <div class="col">Web Dev Preview</div>
-        <div class="col descriptBox">Web Dev Description and Links</div>
+    <div class="modal webdevDetails"><!-- Kept off screen until used-->
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content"><!-- Kept off screen until used-->
+                <div class="col">Website Title</div>
+                <div class="col">Website Preview</div>
+                <div class="col descriptBox">Website Description and Links</div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container"><a name="CharDes" />
@@ -74,10 +78,14 @@
     </div>
     <div class="row" id="chaDesThumbnails"><!-- THUMBNAILS that shift depending on the screen size - four or five when superwide, only one per line on smaller screens--></div>
     </div>
-    <div class="modal card designDetails style='width: 18rem;'"><!-- Kept off screen until used-->
-        <div class="col">Illustration Title</div>
-        <div class="col">Illustration Preview</div>
-        <div class="col descriptBox">Illustration Description and Links</div>
+    <div class="modal designDetails">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content"><!-- Kept off screen until used-->
+                <div class="col">Illustration Title</div>
+                <div class="col">Illustration Preview</div>
+                <div class="col descriptBox">Illustration Description and Links</div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container"><a name="Links" />
@@ -86,14 +94,23 @@
         <div class="col titleBox">Connect with me</div>
     </div>
     <div class="row">
-        <div class="col text-center">
-            <a href="https://github.com/TAKettel" target="_blank"><img src="assets/images/GitHubBenDay.png" class="icon"></a>
-            <a href="https://www.linkedin.com/in/trevor-kettelkamp" target="_blank"><img src="assets/images/LinkedInBenDay.png" class="icon"></a>
-            <a href="https://www.facebook.com/trevor.kettelkamp/" target="_blank"><img src="assets/images/FacebookBenDay.png" class="icon"></a>
-            <a href="https://twitter.com/takettel" target="_blank"><img src="assets/images/TwitterBenDay.png" class="icon"></a>
-            <a href="https://vimeo.com/user6174430" target="_blank"><img src="assets/images/VimeoBenDay.png" class="icon"></a>
-            <a href="https://www.deviantart.com/takettel" target="_blank"><img src="assets/images/DABenDay.png" class="icon"></a>
+        <div class="col-6"></div>
+        <div class="row text-center">
+            <div class="col-4">
+                <a href="https://github.com/TAKettel" target="_blank"><img src="assets/images/GitHubBenDay.png" class="icon"></a></div>
+            <div class="col-4">
+                <a href="https://www.linkedin.com/in/trevor-kettelkamp" target="_blank"><img src="assets/images/LinkedInBenDay.png" class="icon"></a></div>
+            <div class="col-4">
+                <a href="https://www.facebook.com/trevor.kettelkamp/" target="_blank"><img src="assets/images/FacebookBenDay.png" class="icon"></a></div>
+            <div class="col-4">
+                <a href="https://twitter.com/takettel" target="_blank"><img src="assets/images/TwitterBenDay.png" class="icon"></a></div>
+            <div class="col-4">
+                <a href="https://vimeo.com/user6174430" target="_blank"><img src="assets/images/VimeoBenDay.png" class="icon"></a></div>
+            <div class="col-4">
+                <a href="https://www.deviantart.com/takettel" target="_blank"><img src="assets/images/DABenDay.png" class="icon"></a></div>
+            </div>
         </div>
+        <div class="col-4"></div>
     </div>
 </div>
 <div class="container">
