@@ -16,8 +16,10 @@
 body {
     padding-top: 80px;
     background-image: url(/assets/images/SVG/Asset\ 1.svg);
+    background-size: cover;
     color: #343434;
     padding-bottom: 80px;
+    background-color: #343434;
 }
 
 /* --------------------------------Header----------------------------- */
@@ -29,7 +31,7 @@ body {
     text-shadow: 1px 2.5px #996600;
     background-color: #CC5400;
     text-align: center;
-    height: 10px;
+    height: 50px;
     margin-top: 5px;
     border-radius: 10px;
 }
@@ -40,7 +42,7 @@ body {
 
 .fixed-top {
     background-color: #BFDA85;
-    height: 10px;
+    height: 50px;
     outline: 2px solid #755A8A;
 }
 
@@ -76,20 +78,29 @@ hr {
 /* --------------------------------Body------------------------------- */
 
 .titleBox {
-    background-color: #FFAC35
+    border-style: outset;
+    border-color: #000000;
+    border-width: 0px 2px 2px 0px;
+    background-color: #F8F8FF;
+    font-family: 'Carter One', cursive;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: large;
 }
 
 .nameBox {
-    background-color: #FFAC35
+    background-color: #FFAC35;
+    font-size: xx-large;
+    margin-left: -2%;
 }
 
 .descriptBox {
-    background-color: #FFAC35
+    background-color: #FFAC35;
 }
 
 .icon {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
 }
 
 .bio {
@@ -152,6 +163,11 @@ button {
     margin-bottom: 15px;
 }
 
+.linkimg {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* ---------------------------------Footer---------------------------- */
 
 .footer-margin {
@@ -181,14 +197,14 @@ button {
         padding-top: 120px;
     }
 }
-
-@media (max-width: 992px) {
-    #starTrek {
-        height: 200px;
-        width: 200px;
+@media (min-width: 769px) {
+    .icon {
+        height: 75px;
+        width: 75px;
     }
     
 }
+
 @media (max-width: 768px) {
     .myName {
         height: 45px;
@@ -198,9 +214,9 @@ button {
         height: 100px;    
     }
 
-    #starTrek {
-        height: 500px;
-        width: 300px;
+    .icon {
+        height: 150px;
+        width: 150px;
     }
     
     body {
@@ -210,4 +226,11 @@ button {
     .mainTitle {
         font-size: 24px;
     }
+}
+
+@media (max-width: 576px) {
+    .nameBox {
+        margin-left: 0%;
+    }
+    
 }
