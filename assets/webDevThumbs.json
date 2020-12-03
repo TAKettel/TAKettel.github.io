@@ -1,6 +1,12 @@
+    [{
+        "title": "Avishaun",
+        "thumbnail": "https://takettel.github.io/assets/images/Avishaun-thumbnail.jpg",
+        "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
+        "description": "A dark cleric from a fantasy realm."
+    },
     {
         "title": "Avishaun",
         "thumbnail": "https://takettel.github.io/assets/images/Avishaun-thumbnail.jpg",
         "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
         "description": "A dark cleric from a fantasy realm."
-    }
+    }]
