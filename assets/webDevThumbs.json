@@ -1,12 +1,12 @@
     [{
-        "title": "Avishaun",
-        "thumbnail": "https://takettel.github.io/assets/images/Avishaun-thumbnail.jpg",
+        "title": "Train Tracker",
+        "thumbnail": "https://takettel.github.io/assets/images/trainInterior.jpg",
         "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
         "description": "A dark cleric from a fantasy realm."
     },
     {
-        "title": "Avishaun",
-        "thumbnail": "https://takettel.github.io/assets/images/Avishaun-thumbnail.jpg",
+        "title": "GIF Search Tool",
+        "thumbnail": "https://takettel.github.io/assets/images/giphy-logo.png",
         "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
         "description": "A dark cleric from a fantasy realm."
     }]
