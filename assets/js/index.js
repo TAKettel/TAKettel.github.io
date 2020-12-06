@@ -18,7 +18,7 @@ function webDevThumbs() {
 };
 
 function chaDesThumbs() {
-    let jqxhr = $.getJSON( "https://takettel.github.io/assets/webDevThumbs.json", function(data) {
+    let jqxhr = $.getJSON( "https://takettel.github.io/assets/chaDesThumbs.json", function(data) {
         console.log( "JSON object obtained" );
         })
         .fail(function() {
@@ -52,6 +52,6 @@ function chaDesThumb(data) {
         'id':  data[j].id,
         'data-toggle': 'modal',
         'data-target' : '.chaDesDetails',
-        }).text("Character " + data[j].title);
+        }).text("Character: " + data[j].title);
     $("#chaDesThumbnails").append(thumb)
 }};
