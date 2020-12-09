@@ -125,10 +125,13 @@ hr {
     transform: scale(1.1);
 }
 
-.thumbnail {
-    height: 200px;
-    width: 200px;
-    outline: 2px solid #CC5400;
+.fullImage {
+    width: 100%;
+}
+
+.thumbImg {
+    width: 100%;
+    height: 100%;
 }
 
 .portTitle {
@@ -151,6 +154,10 @@ hr {
     margin: 0 0 15px 15px;
     font-family: 'Permanent Marker', cursive;
     font-size: 18px;
+}
+
+.spacer {
+    padding-bottom: 25px;
 }
 
 .resume {

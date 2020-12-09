@@ -1,12 +1,16 @@
     [{
         "title": "Train Tracker",
         "thumbnail": "https://takettel.github.io/assets/images/trainInterior.jpg",
-        "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
-        "description": "A dark cleric from a fantasy realm."
+        "image": "",
+        "description": "A dark cleric from a fantasy realm.",
+        "deployLink": "https://takettel.github.io/trainTime/",
+        "gitLink": "https://github.com/TAKettel/trainTime/"
     },
     {
         "title": "GIF Search Tool",
         "thumbnail": "https://takettel.github.io/assets/images/giphy-logo.png",
-        "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
-        "description": "A dark cleric from a fantasy realm."
+        "image": "",
+        "description": "A tool to search and store GIFs rom Giphy.",
+        "deployLink": "https://takettel.github.io/GifTastic/",
+        "gitLink": "https://github.com/TAKettel/GifTastic/"
     }]
