@@ -1,16 +1,30 @@
-    [{
-        "title": "Train Tracker",
+[
+    {
+        "title": "Moviews",
         "thumbnail": "https://takettel.github.io/assets/images/trainInterior.jpg",
         "image": "",
-        "description": "A dark cleric from a fantasy realm.",
-        "deployLink": "https://takettel.github.io/trainTime/",
-        "gitLink": "https://github.com/TAKettel/trainTime/"
+        "description": "Moviews is a full-stack web app that allows the users to read reviews and filter out spoilers via a spoiler toggle feature, as well as write reviews for other users to see.",
+        "tools": "Node, Express, Passport, Sequelize, Handlebars, and Bootstrap.",
+        "deployLink": "http://bit.ly/MoviewsDeployed",
+        "gitLink": "http://bit.ly/MoviewsRepo"
     },
     {
-        "title": "GIF Search Tool",
+        "title": "You Gotta Remember!",
         "thumbnail": "https://takettel.github.io/assets/images/giphy-logo.png",
         "image": "",
-        "description": "A tool to search and store GIFs rom Giphy.",
-        "deployLink": "https://takettel.github.io/GifTastic/",
-        "gitLink": "https://github.com/TAKettel/GifTastic/"
-    }]
+        "description": "A memory game built around characters from the Parappa the Rapper series of rhythm video games.",
+        "tools": "React, JavaScript, CSS, and Bootstrap.",
+        "deployLink": "http://bit.ly/ReactRememberDeployed",
+        "gitLink": "http://bit.ly/ReactRememberRepo"
+    },
+    {
+        "title": "Gem Collector",
+        "thumbnail": "https://takettel.github.io/assets/images/giphy-logo.png",
+        "image": "",
+        "description": "A game using Steven Universe characters and random number generators.",
+        "tools": "jQuery, CSS, and Bootstrap.",
+        "deployLink": "http://bit.ly/GemDeployed",
+        "gitLink": "http://bit.ly/GemRepo"
+    }
+
+]
