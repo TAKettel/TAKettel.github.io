@@ -89,6 +89,18 @@ hr {
     font-size: large;
 }
 
+.card {
+    background-color: #ebebeb ;
+}
+
+.modal-body {
+    background-color: #ebebeb ;
+}
+
+.modal-footer {
+    text-align: right;
+}
+
 .nameBox {
     background-color: #FFAC35;
     font-size: xx-large;
