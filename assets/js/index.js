@@ -34,7 +34,7 @@ function webDevThumb(data) {
         'id':  i,
         'data-toggle': 'modal',
         'data-target' : '.webdevDetails',
-        }).text("Website: " + data[i].title);
+        }).html("<img src='" + data[i].thumbnail + "' alt ='" + data[i].title + "' class='thumbImg'>");
     $("#webDevThumbnails").append(thumb)
 }};
 
