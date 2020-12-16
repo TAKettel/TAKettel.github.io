@@ -70,7 +70,8 @@ function thumbButt() {
         }).done(function(data) {    
             $(".chaDesDetails").find(".titleBox").text(data[id].title);
             $(".chaDesDetails").find(".previewImage").html("<img src='" + data[id].image + "' alt ='" + data[id].title + "' class='fullImage'>");
-            $(".chaDesDetails").find(".descriptBox").text(data[id].description);
+            $(".chaDesDetails").find(".descriptBox").html(
+                "<row>" + data[id].description + "</row><row>Created for " + data[id].project + "</row>");
             })
         }
     })

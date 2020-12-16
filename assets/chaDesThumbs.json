@@ -1,12 +1,51 @@
-[{
+[
+{
+    "title": "Spider - Critical Hit",
+    "thumbnail": "https://takettel.github.io/assets/images/spiderCrit-thumbnail.jpg",
+    "image": "https://takettel.github.io/assets/images/spiderCrit.jpg",
+    "description": "Monster card reflecting critical success by the players.",
+    "project": "Smash Monster Rampage, board game by Fifth Street Games."
+},
+{
+    "title": "Isa",
+    "thumbnail": "https://takettel.github.io/assets/images/Isa-thumbnail.jpg",
+    "image": "https://takettel.github.io/assets/images/Isa.jpg",
+    "description": "A doomed little girl.",
+    "project": "Fatal Vittles, short animated film by Devin Bell."
+},
+{
+    "title": "Goo - Engulf",
+    "thumbnail": "https://takettel.github.io/assets/images/gooEngulf-thumbnail.jpg",
+    "image": "https://takettel.github.io/assets/images/gooEngulf.jpg",
+    "description": "Monster card reflecting a special action by the Goo creature.",
+    "project": "Smash Monster Rampage, board game by Fifth Street Games."
+},
+{
+    "title": "Distance",
+    "thumbnail": "https://takettel.github.io/assets/images/distancePoster-thumbnail.jpg",
+    "image": "https://takettel.github.io/assets/images/distanceFull.jpg",
+    "description": "Watercolor-inspired illustration.",
+    "project": "Distance, film by Matti McLean."
+},
+{
+    "title": "Reaper",
+    "thumbnail": "https://takettel.github.io/assets/images/Reaper-thumbnail.jpg",
+    "image": "https://takettel.github.io/assets/images/Reaper.jpg",
+    "description": "The Grim Reaper, lost in the woods.",
+    "project": "Fatal Vittles, short animated film by Devin Bell."
+},
+{
     "title": "Avishaun",
     "thumbnail": "https://takettel.github.io/assets/images/Avishaun-thumbnail.jpg",
     "image": "https://takettel.github.io/assets/images/Avishaun.jpg",
-    "description": "A dark cleric from a fantasy realm."
+    "description": "A dark cleric from a fantasy realm.",
+    "project": "personal project."
 },
 {
     "title": "Brink",
     "thumbnail": "https://takettel.github.io/assets/images/Brink-thumbnail.jpg",
     "image": "https://takettel.github.io/assets/images/Brink.jpg",
-    "description": "Superpowered teen with a broken mind."
-}]
+    "description": "Superpowered teen with a broken mind.",
+    "project":"personal project."
+}
+]
