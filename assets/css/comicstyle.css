@@ -93,6 +93,7 @@ hr {
     background-color: #ebebeb ;
 }
 
+
 .modal-body {
     background-color: #ebebeb ;
 }
@@ -107,8 +108,11 @@ hr {
     margin-left: -2%;
 }
 
-.descriptBox {
-    background-color: #FFAC35;
+.bioBox {
+    background-color: #F8F8FF;
+    text-align: center;
+    padding: 3% 15%;
+    font-weight: bold;
 }
 
 .icon {
@@ -217,6 +221,19 @@ button {
         padding-top: 120px;
     }
 }
+
+@media (min-width: 993px) {
+    .profilePic {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .profilePic {
+        width: 200%;
+    }
+}
+
 @media (min-width: 768px) {
     .icon {
         height: 75px;
@@ -229,22 +246,21 @@ button {
     .myName {
         height: 45px;
     }
-
     .fixed-top {
         height: 100px;    
     }
-
     .icon {
         height: 150px;
         width: 150px;
     }
-    
     body {
         padding-top: 120px;
     }
-
     .mainTitle {
         font-size: 24px;
+    }
+    .profilePic {
+        width: 100%;
     }
 }
 
