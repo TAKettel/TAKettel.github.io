@@ -47,6 +47,12 @@ body {
     outline: 2px solid #755A8A;
 }
 
+.collapse,
+.collapsing {
+    background-color: #BFDA85;
+    outline: 0px 0px 2px 0px solid #000000;
+}
+
 .nav-link {
     color: #fffff0;
 }
@@ -66,6 +72,11 @@ body {
 
 hr {
     background-color: #FFAC35;
+}
+
+#initialLogo {
+    height: 100px;
+    width: 100px;
 }
 
 /* .redirect {
@@ -207,6 +218,13 @@ button {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px; */
+
+@media (min-width: 1201px) {
+    #initialLogo {
+        height: 50px;
+        width: 50px;
+    }
+}
 
 @media (max-width: 1200px) {
     .myName {
