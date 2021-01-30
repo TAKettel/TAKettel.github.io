@@ -203,6 +203,17 @@ button {
     padding-right: 0px;
 }
 
+#mainPic {
+    z-index: 5;
+    margin: 15px 0px;
+}
+
+#extraPic {
+    margin-top: 30%;
+    margin-left: -10%;;
+    z-index: 0;
+}
+
 /* ---------------------------------Footer---------------------------- */
 
 .footer-margin {
